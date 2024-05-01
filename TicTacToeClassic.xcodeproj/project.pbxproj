@@ -15,6 +15,9 @@
 		B6CF69042BE21A5C008EC91D /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF69032BE21A5C008EC91D /* GameModels.swift */; };
 		B6CF69072BE22465008EC91D /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF69062BE22465008EC91D /* ViewModifiers.swift */; };
 		B6CF690A2BE22602008EC91D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF69092BE22602008EC91D /* GameView.swift */; };
+		B6CF690C2BE23232008EC91D /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF690B2BE23232008EC91D /* GameService.swift */; };
+		B6CF690E2BE240DC008EC91D /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF690D2BE240DC008EC91D /* GameSquare.swift */; };
+		B6CF69102BE2435A008EC91D /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF690F2BE2435A008EC91D /* SquareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		B6CF69032BE21A5C008EC91D /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
 		B6CF69062BE22465008EC91D /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		B6CF69092BE22602008EC91D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		B6CF690B2BE23232008EC91D /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		B6CF690D2BE240DC008EC91D /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
+		B6CF690F2BE2435A008EC91D /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				B6CF69092BE22602008EC91D /* GameView.swift */,
+				B6CF690B2BE23232008EC91D /* GameService.swift */,
+				B6CF690D2BE240DC008EC91D /* GameSquare.swift */,
+				B6CF690F2BE2435A008EC91D /* SquareView.swift */,
 			);
 			path = "Game Screen";
 			sourceTree = "<group>";
@@ -177,8 +186,11 @@
 				B6CF68F52BE21055008EC91D /* StartView.swift in Sources */,
 				B6CF69042BE21A5C008EC91D /* GameModels.swift in Sources */,
 				B6CF68F32BE21055008EC91D /* AppEntry.swift in Sources */,
+				B6CF690C2BE23232008EC91D /* GameService.swift in Sources */,
 				B6CF69072BE22465008EC91D /* ViewModifiers.swift in Sources */,
 				B6CF690A2BE22602008EC91D /* GameView.swift in Sources */,
+				B6CF690E2BE240DC008EC91D /* GameSquare.swift in Sources */,
+				B6CF69102BE2435A008EC91D /* SquareView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

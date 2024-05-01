@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6CF68F32BE21055008EC91D /* TicTacToeClassicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF68F22BE21055008EC91D /* TicTacToeClassicApp.swift */; };
-		B6CF68F52BE21055008EC91D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF68F42BE21055008EC91D /* ContentView.swift */; };
+		B6CF68F32BE21055008EC91D /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF68F22BE21055008EC91D /* AppEntry.swift */; };
+		B6CF68F52BE21055008EC91D /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF68F42BE21055008EC91D /* StartView.swift */; };
 		B6CF68F72BE21087008EC91D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CF68F62BE21087008EC91D /* Assets.xcassets */; };
 		B6CF68FA2BE21087008EC91D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CF68F92BE21087008EC91D /* Preview Assets.xcassets */; };
+		B6CF69012BE2145F008EC91D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CF69002BE2145F008EC91D /* Launch Screen.storyboard */; };
+		B6CF69042BE21A5C008EC91D /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF69032BE21A5C008EC91D /* GameModels.swift */; };
+		B6CF69072BE22465008EC91D /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF69062BE22465008EC91D /* ViewModifiers.swift */; };
+		B6CF690A2BE22602008EC91D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF69092BE22602008EC91D /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B6CF68EF2BE21055008EC91D /* TicTacToeClassic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToeClassic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6CF68F22BE21055008EC91D /* TicTacToeClassicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeClassicApp.swift; sourceTree = "<group>"; };
-		B6CF68F42BE21055008EC91D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6CF68F22BE21055008EC91D /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
+		B6CF68F42BE21055008EC91D /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		B6CF68F62BE21087008EC91D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6CF68F92BE21087008EC91D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6CF69002BE2145F008EC91D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B6CF69032BE21A5C008EC91D /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		B6CF69062BE22465008EC91D /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		B6CF69092BE22602008EC91D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +59,13 @@
 		B6CF68F12BE21055008EC91D /* TicTacToeClassic */ = {
 			isa = PBXGroup;
 			children = (
-				B6CF68F22BE21055008EC91D /* TicTacToeClassicApp.swift */,
-				B6CF68F42BE21055008EC91D /* ContentView.swift */,
+				B6CF68F22BE21055008EC91D /* AppEntry.swift */,
+				B6CF68F42BE21055008EC91D /* StartView.swift */,
+				B6CF69082BE225D8008EC91D /* Game Screen */,
+				B6CF69022BE21A3C008EC91D /* Models */,
+				B6CF69052BE2242E008EC91D /* Utilities */,
 				B6CF68F62BE21087008EC91D /* Assets.xcassets */,
+				B6CF69002BE2145F008EC91D /* Launch Screen.storyboard */,
 				B6CF68F82BE21087008EC91D /* Preview Content */,
 			);
 			path = TicTacToeClassic;
@@ -65,6 +77,30 @@
 				B6CF68F92BE21087008EC91D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6CF69022BE21A3C008EC91D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6CF69032BE21A5C008EC91D /* GameModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B6CF69052BE2242E008EC91D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B6CF69062BE22465008EC91D /* ViewModifiers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B6CF69082BE225D8008EC91D /* Game Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B6CF69092BE22602008EC91D /* GameView.swift */,
+			);
+			path = "Game Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6CF69012BE2145F008EC91D /* Launch Screen.storyboard in Resources */,
 				B6CF68FA2BE21087008EC91D /* Preview Assets.xcassets in Resources */,
 				B6CF68F72BE21087008EC91D /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6CF68F52BE21055008EC91D /* ContentView.swift in Sources */,
-				B6CF68F32BE21055008EC91D /* TicTacToeClassicApp.swift in Sources */,
+				B6CF68F52BE21055008EC91D /* StartView.swift in Sources */,
+				B6CF69042BE21A5C008EC91D /* GameModels.swift in Sources */,
+				B6CF68F32BE21055008EC91D /* AppEntry.swift in Sources */,
+				B6CF69072BE22465008EC91D /* ViewModifiers.swift in Sources */,
+				B6CF690A2BE22602008EC91D /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -278,8 +318,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +349,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

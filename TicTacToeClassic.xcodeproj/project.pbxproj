@@ -18,6 +18,7 @@
 		B6CF690C2BE23232008EC91D /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF690B2BE23232008EC91D /* GameService.swift */; };
 		B6CF690E2BE240DC008EC91D /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF690D2BE240DC008EC91D /* GameSquare.swift */; };
 		B6CF69102BE2435A008EC91D /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF690F2BE2435A008EC91D /* SquareView.swift */; };
+		B6FB81262BE4C90E00DE9769 /* YourNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FB81252BE4C90E00DE9769 /* YourNameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B6CF690B2BE23232008EC91D /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
 		B6CF690D2BE240DC008EC91D /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
 		B6CF690F2BE2435A008EC91D /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		B6FB81252BE4C90E00DE9769 /* YourNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourNameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				B6CF68F22BE21055008EC91D /* AppEntry.swift */,
+				B6FB81252BE4C90E00DE9769 /* YourNameView.swift */,
 				B6CF68F42BE21055008EC91D /* StartView.swift */,
 				B6CF69082BE225D8008EC91D /* Game Screen */,
 				B6CF69022BE21A3C008EC91D /* Models */,
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FB81262BE4C90E00DE9769 /* YourNameView.swift in Sources */,
 				B6CF68F52BE21055008EC91D /* StartView.swift in Sources */,
 				B6CF69042BE21A5C008EC91D /* GameModels.swift in Sources */,
 				B6CF68F32BE21055008EC91D /* AppEntry.swift in Sources */,

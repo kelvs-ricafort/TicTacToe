@@ -4,8 +4,8 @@
 <dict>
 	<key>NSBonjourServices</key>
 	<array>
-		<string>_TicTacToeClassic._tcp</string>
-		<string>_TicTacToeClassic._udp</string>
+		<string>_TicTacToe._tcp</string>
+		<string>_TicTacToe._udp</string>
 	</array>
 </dict>
 </plist>

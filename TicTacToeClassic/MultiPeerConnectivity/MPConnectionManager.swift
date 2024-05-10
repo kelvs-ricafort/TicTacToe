@@ -2,13 +2,13 @@
 //  MPConnectionManager.swift
 //  TicTacToeClassic
 //
-//  Created by Kelvin on 04/05/2024.
+//  Created by Kelvin on 10/05/2024.
 //
 
 import MultipeerConnectivity
 
 extension String {
-    static var serviceName = "TicTacToeClassic"
+    static var serviceName = "TicTacToe"
 }
 
 class MPConnectionManager: NSObject, ObservableObject {
@@ -22,6 +22,7 @@ class MPConnectionManager: NSObject, ObservableObject {
     func setup(game: GameService) {
         self.game = game
     }
+    
     @Published var availablePeers = [MCPeerID]()
     @Published var receivedInvite: Bool = false
     @Published var receivedInviteFrom: MCPeerID?
@@ -45,7 +46,6 @@ class MPConnectionManager: NSObject, ObservableObject {
         nearbyServiceBrowser = MCNearbyServiceBrowser(peer: myPeerId, serviceType: serviceType)
         
         super.init()
-        
         session.delegate = self
         nearbyServiceAdvertiser.delegate = self
         nearbyServiceBrowser.delegate = self
@@ -165,4 +165,6 @@ extension MPConnectionManager: MCSessionDelegate {
     func session(_ session: MCSession, didFinishReceivingResourceWithName resourceName: String, fromPeer peerID: MCPeerID, at localURL: URL?, withError error: (any Error)?) {
         
     }
+    
+    
 }

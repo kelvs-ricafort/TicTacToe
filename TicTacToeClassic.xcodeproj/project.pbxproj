@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B67C9BEB2BEB6F320067EC89 /* MPGameMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C9BEA2BEB6F320067EC89 /* MPGameMove.swift */; };
+		B61034FE2BEE67CB00A04B68 /* MPGameMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61034FD2BEE67CB00A04B68 /* MPGameMove.swift */; };
 		B6CF68F32BE21055008EC91D /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF68F22BE21055008EC91D /* AppEntry.swift */; };
 		B6CF68F52BE21055008EC91D /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF68F42BE21055008EC91D /* StartView.swift */; };
 		B6CF68F72BE21087008EC91D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CF68F62BE21087008EC91D /* Assets.xcassets */; };
@@ -20,11 +20,11 @@
 		B6CF690E2BE240DC008EC91D /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF690D2BE240DC008EC91D /* GameSquare.swift */; };
 		B6CF69102BE2435A008EC91D /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF690F2BE2435A008EC91D /* SquareView.swift */; };
 		B6FB81262BE4C90E00DE9769 /* YourNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FB81252BE4C90E00DE9769 /* YourNameView.swift */; };
-		B6FEE0612BE622E000571EFE /* MPConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FEE0602BE622E000571EFE /* MPConnectionManager.swift */; };
+		B6FE57B32BEDE8EE00B4DCA8 /* MPConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FE57B22BEDE8EE00B4DCA8 /* MPConnectionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B67C9BEA2BEB6F320067EC89 /* MPGameMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGameMove.swift; sourceTree = "<group>"; };
+		B61034FD2BEE67CB00A04B68 /* MPGameMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGameMove.swift; sourceTree = "<group>"; };
 		B6CF68EF2BE21055008EC91D /* TicTacToeClassic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToeClassic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CF68F22BE21055008EC91D /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
 		B6CF68F42BE21055008EC91D /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
@@ -38,8 +38,8 @@
 		B6CF690D2BE240DC008EC91D /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
 		B6CF690F2BE2435A008EC91D /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 		B6FB81252BE4C90E00DE9769 /* YourNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourNameView.swift; sourceTree = "<group>"; };
+		B6FE57B22BEDE8EE00B4DCA8 /* MPConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPConnectionManager.swift; sourceTree = "<group>"; };
 		B6FEE05E2BE620AB00571EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		B6FEE0602BE622E000571EFE /* MPConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPConnectionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +125,8 @@
 		B6FEE05F2BE6229400571EFE /* MultiPeerConnectivity */ = {
 			isa = PBXGroup;
 			children = (
-				B6FEE0602BE622E000571EFE /* MPConnectionManager.swift */,
-				B67C9BEA2BEB6F320067EC89 /* MPGameMove.swift */,
+				B6FE57B22BEDE8EE00B4DCA8 /* MPConnectionManager.swift */,
+				B61034FD2BEE67CB00A04B68 /* MPGameMove.swift */,
 			);
 			path = MultiPeerConnectivity;
 			sourceTree = "<group>";
@@ -202,14 +202,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B67C9BEB2BEB6F320067EC89 /* MPGameMove.swift in Sources */,
+				B61034FE2BEE67CB00A04B68 /* MPGameMove.swift in Sources */,
 				B6FB81262BE4C90E00DE9769 /* YourNameView.swift in Sources */,
 				B6CF68F52BE21055008EC91D /* StartView.swift in Sources */,
 				B6CF69042BE21A5C008EC91D /* GameModels.swift in Sources */,
 				B6CF68F32BE21055008EC91D /* AppEntry.swift in Sources */,
 				B6CF690C2BE23232008EC91D /* GameService.swift in Sources */,
 				B6CF69072BE22465008EC91D /* ViewModifiers.swift in Sources */,
-				B6FEE0612BE622E000571EFE /* MPConnectionManager.swift in Sources */,
+				B6FE57B32BEDE8EE00B4DCA8 /* MPConnectionManager.swift in Sources */,
 				B6CF690A2BE22602008EC91D /* GameView.swift in Sources */,
 				B6CF690E2BE240DC008EC91D /* GameSquare.swift in Sources */,
 				B6CF69102BE2435A008EC91D /* SquareView.swift in Sources */,
